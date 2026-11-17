@@ -109,7 +109,6 @@ rm -rf .temp-webcraft
 
 ```text
 Frontend-Website-Skill/
-├── PRD.md                                  # Product Requirements Document lengkap
 ├── README.md                               # Dokumentasi lengkap repositori ini
 ├── .cursor/rules/
 │   ├── web-ui-core.mdc                     # Context Lock, Dual-Session, Anti-Slop & Library rules
