@@ -1,0 +1,13 @@
+---
+description: Enforce desktop pointer, keyboard, responsive grid, and accessibility standards for WebCraft projects.
+globs: ["**/*.tsx", "**/*.jsx", "**/*.vue", "**/*.svelte", "**/*.html", "**/*.css"]
+alwaysApply: true
+author: Ananda Azizul Akbar (@Azizulakbar89)
+---
+
+# WebCraft: Desktop Motion, Keyboard & Ergonomics Rule
+
+- **Spatial Grids:** Use `max-w-[1280px]` 12-column grids for editorial/marketing pages, and `100dvh` app shells with collapsible `240px–260px` sidebars for web apps/dashboards.
+- **Pointer & Keyboard:** Provide crisp `:hover` and `:focus-visible` (`2px` ring) states on all interactive controls. Support `Esc` to dismiss modals/drawers and `⌘K` / `Ctrl+K` command palettes in web apps.
+- **No Native Browser Popups:** Never use `alert()`, `confirm()`, or `prompt()`. Use clean slide-over drawers, dialog modals, or `Sonner`-style toasts.
+- **Accessibility & Motion:** Maintain `>= 4.5:1` text contrast, semantic landmarks (`<header>`, `<nav>`, `<main>`, `<aside>`), `aria-label` on icon-only buttons, and honor `prefers-reduced-motion: reduce`.
